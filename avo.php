@@ -388,7 +388,7 @@ class AVO {
 		wp_embed_register_handler(
 			'xvideos',
 			'#http://(www\.)?xvideos.com/*#i',
-			array( $this, 'xvideoss_embed_handler' ),
+			array( $this, 'xvideos_embed_handler' ),
 			10
 		);
 
